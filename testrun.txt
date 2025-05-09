@@ -1,0 +1,79 @@
+Performance Results:
+
+N = 10 Insert Table:
+--------------------------------------------------------
+             Insert@start(ms)   Insert@end(ms)     Insert@random(ms) 
+--------------------------------------------------------
+MyArrayList  0                  0                  0                 
+ArrayList    0                  0                  0                 
+MyLinkedList 0                  0                  0                 
+LinkedList   0                  0                  0                 
+
+N = 10 Remove Table:
+-----------------------------------------------------------------------------------------
+             Remove@start(ms)   Remove@end(ms)     Remove@random(ms)  Remove by Value(ms)
+-----------------------------------------------------------------------------------------
+MyArrayList  0                  0                  0                  0                 
+ArrayList    0                  0                  0                  0                 
+MyLinkedList 0                  0                  0                  0                 
+LinkedList   0                  0                  0                  0                 
+
+
+N = 100 Insert Table:
+--------------------------------------------------------
+             Insert@start(ms)   Insert@end(ms)     Insert@random(ms) 
+--------------------------------------------------------
+MyArrayList  0                  0                  0                 
+ArrayList    0                  0                  0                 
+MyLinkedList 0                  0                  0                 
+LinkedList   0                  0                  0                 
+
+N = 100 Remove Table:
+-----------------------------------------------------------------------------------------
+             Remove@start(ms)   Remove@end(ms)     Remove@random(ms)  Remove by Value(ms)
+-----------------------------------------------------------------------------------------
+MyArrayList  0                  0                  0                  1                 
+ArrayList    0                  0                  0                  1                 
+MyLinkedList 0                  0                  0                  0                 
+LinkedList   0                  0                  0                  0                 
+
+
+N = 1000 Insert Table:
+--------------------------------------------------------
+             Insert@start(ms)   Insert@end(ms)     Insert@random(ms) 
+--------------------------------------------------------
+MyArrayList  0                  0                  0                 
+ArrayList    0                  0                  0                 
+MyLinkedList 0                  0                  2                 
+LinkedList   1                  0                  5                 
+
+N = 1000 Remove Table:
+-----------------------------------------------------------------------------------------
+             Remove@start(ms)   Remove@end(ms)     Remove@random(ms)  Remove by Value(ms)
+-----------------------------------------------------------------------------------------
+MyArrayList  0                  0                  0                  16                
+ArrayList    0                  0                  0                  16                
+MyLinkedList 0                  9                  0                  15                
+LinkedList   0                  0                  0                  11                
+
+
+N = 10000 Insert Table:
+--------------------------------------------------------
+             Insert@start(ms)   Insert@end(ms)     Insert@random(ms) 
+--------------------------------------------------------
+MyArrayList  7                  0                  4                 
+ArrayList    5                  0                  4                 
+MyLinkedList 5                  0                  189               
+LinkedList   0                  0                  69                
+
+N = 10000 Remove Table:
+-----------------------------------------------------------------------------------------
+             Remove@start(ms)   Remove@end(ms)     Remove@random(ms)  Remove by Value(ms)
+-----------------------------------------------------------------------------------------
+MyArrayList  2                  0                  2                  153               
+ArrayList    5                  1                  3                  105               
+MyLinkedList 0                  107                118                824               
+LinkedList   0                  0                  39                 215               
+
+
+Execution for N = 100000 took too long. Skipping...
